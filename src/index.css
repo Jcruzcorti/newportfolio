@@ -1,4 +1,6 @@
 #body{
+    box-sizing: border-box;
+    scroll-behavior:smooth;
     font-family: 'Mukta Mahee', sans-serif; 
     scroll-behavior:smooth;  
     background:

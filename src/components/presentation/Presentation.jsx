@@ -7,7 +7,7 @@ import NavBar from '../navbar/NavBar';
 function Presentation() {
   return (
 
-  <>
+  <div className='DivPrimaryPresentation'>
     <div className='DivPresentation'>
       <div className='DivInformation'>
           <h1>Hey there! I'm Juan Cruz Cortiñas</h1>
@@ -16,10 +16,11 @@ function Presentation() {
       <div className='DivInformation'>
           <img src={imgCv} alt="Imgcv" className='PhotoCv'/>
       </div>
+      
     </div>
     
     <NavBar/>
-  </>
+  </div>
 
 
     

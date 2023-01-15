@@ -1,0 +1,33 @@
+.DivFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 2px 10px 2px; */
+    border-top: 1.5px solid #202020;
+    gap: 50px;
+    
+    
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.ImgFooter{
+    width: 30px;
+    height: auto;
+    padding-left: 5px;
+}
+
+.PFooter{
+    font-size: 20px;
+    color: #141414;
+    font-weight: 200;
+  }

@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonHover from '../button/ButtonHover'
+import ButtonHover from '../buttons/ButtonHover'
 import './navbar.css'
 
 
