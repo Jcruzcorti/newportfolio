@@ -8,9 +8,7 @@ function Presentation() {
   return (
 
   <div className='DivPrimaryPresentation'>
-
-
-
+    
     <div className='DivPresentation'>
       <div className='DivInformation'>
       
