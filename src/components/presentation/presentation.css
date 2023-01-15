@@ -18,7 +18,7 @@
   }
 
 .PhotoCv{
-    width: 240px;
+    width: 230px;
     height: auto;
     border-radius: 6px;    
     box-shadow: 1px 1px 15px 2px rgb(65, 65, 61); 
@@ -34,4 +34,13 @@ h1{
 h2{
     margin: 0;
     font-size: 25px;
+}
+
+.DivButtonTheme{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

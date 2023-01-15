@@ -1,5 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
+import ButtonTheme from './components/buttons/ButtonTheme';
 import Footer from './components/footer/Footer';
 import Presentation from './components/presentation/Presentation';
 
@@ -12,6 +12,9 @@ function App() {
     <div className="App">
       
       <section className='SectionApp'>
+        <div className='DivButtonTheme'>
+          <ButtonTheme/>
+        </div>
         <Presentation/>
         <Presentation/>
         <Presentation/>
