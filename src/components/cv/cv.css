@@ -1,0 +1,97 @@
+.DivCv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:  baseline;
+   
+    /* margin-top: 150px; */
+    padding: 10px;
+}
+
+.DivCv:hover{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0.5px #141414;
+    transition: 0.5s all;
+  }
+
+
+.DivCvPrimary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    width: 90vmin;
+}
+
+.DivEducation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+}
+
+.h4{
+    font-size: 18px;
+    color: #141414;
+    margin: 0px;
+    text-align: start;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  flex-start;
+}
+
+.DivAptitudes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+}
+
+
+
+
+.DivCvSecondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    align-content: center;
+}
+
+.DivKnowledge{
+    padding-left: 2px;
+    padding-right: 2px;
+    /* width: 40px;
+    height: 40px; */
+
+}
+
+.ImgKnowledges{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+}
+
+.DivSub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    /* margin-top: 10px; */
+}
+
+/* .DivSub1{
+
+}
+
+.DivSub2{
+
+}
+
+
+.DivLenguages{
+
+} */

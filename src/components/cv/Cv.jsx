@@ -8,8 +8,8 @@ import CvSecondary from './CvSecondary'
 function Cv() {
 
   return (
-    
-    <div className='DivCv'>
+
+    <div className='DivCv' id='Cv'>
         <CvPrimary/>
         <CvSecondary/>
     </div>

@@ -1,45 +1,51 @@
 import React from 'react'
+import Opening from '../../imgs/apertura.svg'
+import Html from '../../imgs/html.svg'
+import Css from '../../imgs/css.svg'
+import Js from '../../imgs/js.svg'
+import Reactjs from '../../imgs/react.png'
+import Clousing from '../../imgs/clausura.svg'
 
 function CvSecondary() {
   return (
     <>
         <div className='DivCvSecondary'>
-            <div className=''>
-            <h2 className='' >Conocimientos</h2>
+           
+            <h2>Knowledges</h2>
 
-            <div className=''>              
-                {/* <Image src='/apertura.svg' alt='img apertura' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/html.svg' alt='img html' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/css.svg' alt='img css'  width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/js.svg' alt='img js' width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/react.png' alt='img react'  width={50} height={50} className={styles.fotoConocimiento}/>
-                <Image src='/clausura.svg' alt='img clausura'  width={50} height={50} className={styles.fotoConocimiento}/> */}
-                <div className=''>
-                    <div className=''>
-                        <p className=''>HTML</p>
-                        <p className=''>CSS</p>
-                        <p className=''>GIT</p>
-                        <p className=''>Github</p>
-                        <p className=''>Next js</p>
-                        <p className=''>SCSS</p>
+            <div className='DivKnowledge'> 
+                <img src={Opening} alt="imgapertura" className='ImgKnowledges'/>     
+                <img src={Html} alt="imghtml" className='ImgKnowledges'/> 
+                <img src={Css} alt="imgcss" className='ImgKnowledges'/> 
+                <img src={Js} alt="imgjs" className='ImgKnowledges'/> 
+                <img src={Reactjs} alt="imgreact" className='ImgKnowledges'/> 
+                <img src={Clousing} alt="imgclausura" className='ImgKnowledges'/>     
+                
+                <div className='DivSub'>
+                    <div className='DivSub1'>
+                        <h4 className='h4'>HTML</h4>
+                        <h4 className='h4'>CSS</h4>
+                        <h4 className='h4'>GIT</h4>
+                        <h4 className='h4'>Github</h4>
+                        <h4 className='h4'>Next js</h4>
+                        <h4 className='h4'>SCSS</h4>
                     </div>
-                    <div className=''>
-                        <p className=''>JavaScript</p>
-                        <p className=''>React js</p>
-                        <p className=''>Bootstrap</p>
-                        <p className=''>Firebase</p>
-                        <p className=''>Next UI</p>
-                        <p className=''>Balsamiq</p>
+                    <div className='DivSub2'>
+                        <h4 className='h4'>JavaScript</h4>
+                        <h4 className='h4'>React js</h4>
+                        <h4 className='h4'>Bootstrap</h4>
+                        <h4 className='h4'>Firebase</h4>
+                        <h4 className='h4'>Next UI</h4>
+                        <h4 className='h4'>Balsamiq</h4>
                     </div>
                 </div>
             </div>
-                <h2 className=''>Idiomas</h2>
-                <div className=''>
-                    
-                    <p className=''>Español: nativo</p>
-                    <p className=''>Inglés: intermedio/avanzado</p>
+                <h2>Lenguages</h2>
+                <div className='DivLenguages'>                   
+                    <h4 className='h4'>Español: nativo</h4>
+                    <h4 className='h4'>Inglés: intermedio/avanzado</h4>
                 </div>
-            </div>
+            
 
         </div>
     </>

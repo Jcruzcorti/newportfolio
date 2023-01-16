@@ -29,11 +29,6 @@ function App() {
             </div>
             <Routes>
               <Route path='/' element={<Presentation/>}/>
-              {/* <Presentation/>
-              <Presentation/>
-              <Presentation/>
-              <Presentation/>
-              <Presentation/>  */}
             </Routes>
               <Cv/>
             <div className='ButtonLinkHome'>

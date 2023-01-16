@@ -1,9 +1,11 @@
 .AppPrimary{
   display: flex;
   flex-direction: column;
+  scroll-behavior:smooth;
   /* justify-content: center;
   align-items: center; */
   text-align: center;
+  padding: 0 2rem;
   background:linear-gradient(
     to bottom,
     hsl(247.5, 14.29%, 78.04%) 0%,
@@ -29,9 +31,11 @@
 .AppSecondary{
   display: flex;
   flex-direction: column;
+  scroll-behavior:smooth;
   /* justify-content: center;
   align-items: center; */
   text-align: center;
+  padding: 0 2rem;
   background:linear-gradient(
     to bottom,
     hsl(210.81, 15.1%, 48.04%) 0%,
