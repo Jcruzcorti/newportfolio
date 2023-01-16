@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Presentation from './components/presentation/Presentation';
 import ContextProvider from './context/Context';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import Cv from './components/cv/Cv';
 
 
 
@@ -34,6 +35,7 @@ function App() {
               <Presentation/>
               <Presentation/>  */}
             </Routes>
+              <Cv/>
             <div className='ButtonLinkHome'>
               <Link to='/'><ButtonLinkHome/></Link>
             </div>
