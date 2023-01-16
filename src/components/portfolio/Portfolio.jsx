@@ -11,8 +11,8 @@ function Portfolio() {
   return (
     <>
         <NavBar/>
-        <div>
-            <h2>PROYECTOS</h2>
+        <div className='DivProyectos'>
+            <h1>PROYECTOS</h1>
             <PortfolioProyects proyects={proyects}/>
         </div>
     </>
