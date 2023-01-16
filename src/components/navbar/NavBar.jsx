@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { NavLink } from 'react-router-dom'
+// import { Context } from '../../context/Context'
 import ButtonHover from '../buttons/ButtonHover'
 import './navbar.css'
 
@@ -7,13 +8,20 @@ import './navbar.css'
 
 function NavBar() {
 
+  // const {themeColor,handleChangeThemeColor} = useContext(Context)
+
   return (
     <div className="DivNavBar">
+      {/* {
+        themeColor
+        ?null
+        :<Link to='/'><ButtonHover tittle="HOME"/></Link>
+      } */}
         
-        <Link to='/Cv'><ButtonHover tittle="CV"/></Link>
-        <ButtonHover tittle="PORTFOLIO"/>
-        <ButtonHover tittle="ABOUT ME"/>
-        <ButtonHover tittle="CONTACT"/>
+        <NavLink to='/cv'><ButtonHover tittle="CV"/></NavLink>
+        <NavLink to='/portfolio'><ButtonHover tittle="PORTFOLIO"/></NavLink>
+        <ButtonHover tittle="SOBRE MI"/>
+        <ButtonHover tittle="CONTACTO"/>
     </div>
   )
 }

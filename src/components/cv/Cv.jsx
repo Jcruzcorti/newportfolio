@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import NavBar from '../navbar/NavBar'
 import './cv.css'
 import CvPrimary from './CvPrimary'
 import CvSecondary from './CvSecondary'
@@ -8,11 +8,14 @@ import CvSecondary from './CvSecondary'
 function Cv() {
 
   return (
-
-    <div className='DivCv' id='Cv'>
-        <CvPrimary/>
-        <CvSecondary/>
-    </div>
+    <>  
+        <NavBar/>
+        <div className='DivCv' id='Cv'>           
+            <CvPrimary/>
+            <CvSecondary/>
+        </div>
+    </>
+    
   )
 }
 
