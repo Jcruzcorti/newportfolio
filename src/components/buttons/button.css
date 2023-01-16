@@ -1,4 +1,4 @@
-.ButtonHover {
+.ButtonHoverPrimary {
     display: inline-block;
     width: 130px;
     height: auto;
@@ -18,7 +18,7 @@
     background: rgba(220, 221, 223, 0.991);
    }
    
-   .ButtonHover:before {
+   .ButtonHoverPrimary:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -32,11 +32,33 @@
     transition: all .7s;
    }
    
-   .ButtonHover:hover {
+   .ButtonHoverPrimary:hover {
     color: rgba(220, 221, 223, 0.991);
    }
    
-   .ButtonHover:hover:before {
+   .ButtonHoverPrimary:hover:before {
     top: -30px;
     left: -30px;
    }
+
+
+
+.DivButtonTheme{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.ButtonLinkHome{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    bottom: 20px;
+    margin: 5px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

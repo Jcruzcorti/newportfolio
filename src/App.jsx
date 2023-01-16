@@ -1,8 +1,11 @@
-import { useState } from 'react';
+import React,{useState} from 'react';
 import './App.css';
+import ButtonLinkHome from './components/buttons/ButtonLinkHome';
 import ButtonTheme from './components/buttons/ButtonTheme';
 import Footer from './components/footer/Footer';
 import Presentation from './components/presentation/Presentation';
+import ContextProvider from './context/Context';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
 
 
@@ -15,24 +18,34 @@ function App() {
   }
 
   return (
-    <div className={themeColor ? "AppPrimary" : "AppSecondary"}>
-      
-      <section className='SectionApp'>
-        <div className='DivButtonTheme'>
-          <ButtonTheme onClick={handleChangeThemeColor}/>
-        </div>
-        <Presentation/>
-        <Presentation/>
-        <Presentation/>
-        <Presentation/>
-        <Presentation/>
-        <Presentation/>  
-      </section>
+    <ContextProvider>
+      <BrowserRouter>
+        <div className={themeColor ? "AppPrimary" : "AppSecondary"}>
+        
+          <section className='SectionApp'>
+            <div className='DivButtonTheme'>
+              <ButtonTheme onClick={handleChangeThemeColor}/>
+            </div>
+            <Routes>
+              <Route path='/' element={<Presentation/>}/>
+              {/* <Presentation/>
+              <Presentation/>
+              <Presentation/>
+              <Presentation/>
+              <Presentation/>  */}
+            </Routes>
+            <div className='ButtonLinkHome'>
+              <Link to='/'><ButtonLinkHome/></Link>
+            </div>
+          </section>
 
-      <footer className='FooterApp'>
-        <Footer/>
-      </footer>  
-    </div>
+          <footer className='FooterApp'>
+            <Footer/>
+          </footer>  
+        </div>
+      </BrowserRouter>
+    </ContextProvider>
+    
   );
 }
 
