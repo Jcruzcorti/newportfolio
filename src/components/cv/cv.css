@@ -110,7 +110,8 @@
         flex-direction: column;
         justify-content: center;
         align-items:  center;
-        width: 90%;
+        width:80vmin;
+    
         
     }
     
@@ -119,6 +120,7 @@
         flex-direction: column;
         justify-content: center;
         align-items:  flex-start;
+        padding-bottom: 15px;
     }
     
     .h4{
@@ -138,6 +140,7 @@
         flex-direction: column;
         justify-content: center;
         align-items:  flex-start;
+        padding-bottom: 15px;
     }
     
     
@@ -154,6 +157,7 @@
     .DivKnowledge{
         padding-left: 2px;
         padding-right: 2px;
+        padding-bottom: 15px;
         /* width: 40px;
         height: 40px; */
     
