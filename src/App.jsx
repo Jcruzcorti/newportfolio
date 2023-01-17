@@ -8,6 +8,7 @@ import ContextProvider from './context/Context';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Cv from './components/cv/Cv';
 import Portfolio from './components/portfolio/Portfolio';
+import AboutMe from './components/aboutme/AboutMe';
 
 
 
@@ -32,8 +33,8 @@ function App() {
               <Route path='/' element={<Presentation/>}/>
               <Route path='/cv' element={<Cv/>}/>
               <Route path='/portfolio' element={<Portfolio/>}/>
+              <Route path='/sobremi' element={<AboutMe/>}/>
             </Routes>
-
             <div className='ButtonLinkHome'>
               <Link to='/'><ButtonLinkHome/></Link>
             </div>

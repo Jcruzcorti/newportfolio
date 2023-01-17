@@ -9,11 +9,10 @@ function NavBar() {
 
 
   return (
-    <div className="DivNavBar">
-        
+    <div className="DivNavBar">     
         <NavLink to='/cv'><ButtonHover tittle="CV"/></NavLink>
         <NavLink to='/portfolio'><ButtonHover tittle="PORTFOLIO"/></NavLink>
-        <ButtonHover tittle="SOBRE MI"/>
+        <NavLink to='/sobremi'><ButtonHover tittle="SOBRE MI"/></NavLink>
         <ButtonHover tittle="CONTACTO"/>
     </div>
   )

@@ -15,8 +15,7 @@ function PortfolioProyectItem({proyect}) {
                     </div>                
                     <div className='DivInfoCard'>
                         <h4 className='h4Card'>{proyect.description}</h4>     
-                    </div>   
-                    
+                    </div>                      
                 </div>
             </a>
         </div>

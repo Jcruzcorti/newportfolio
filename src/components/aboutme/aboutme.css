@@ -1,0 +1,47 @@
+.DivAboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.DivAboutMe:hover{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0.5px #141414;
+    transition: 0.8s all;
+  
+  }
+
+.DivAboutMePresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 150vmin;
+}
+
+.DivInterests{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    width: 150vmin;
+}
+
+.DivInterestsItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.imgMate{
+    /* vertical-align: text-bottom; */
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
