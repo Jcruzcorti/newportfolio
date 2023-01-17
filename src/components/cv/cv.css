@@ -83,15 +83,97 @@
     /* margin-top: 10px; */
 }
 
-/* .DivSub1{
+
+
+@media screen and (max-width:768px){
+    
+    .DivCv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 10px;
+        /* min-height: 80vh; */
+    }
+    
+    .DivCv:hover{
+        border-radius: 8px;
+        box-shadow: 3px 3px 10px 0.5px #141414;
+        transition: 0.5s all;
+      }
+    
+    
+    .DivCvPrimary{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  center;
+        width: 90%;
+        
+    }
+    
+    .DivEducation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  flex-start;
+    }
+    
+    .h4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:  flex-start;
+        font-size: 14px;
+        color: #141414;
+        margin: 0px;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .DivAptitudes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  flex-start;
+    }
+    
+    
+    
+    
+    .DivCvSecondary{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  center;
+        align-content: center;
+    }
+    
+    .DivKnowledge{
+        padding-left: 2px;
+        padding-right: 2px;
+        /* width: 40px;
+        height: 40px; */
+    
+    }
+    
+    .ImgKnowledges{
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        margin: 0;
+    }
+    
+    .DivSub{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:  center;
+        /* margin-top: 10px; */
+    }
+    
+
 
 }
-
-.DivSub2{
-
-}
-
-
-.DivLenguages{
-
-} */

@@ -65,10 +65,10 @@
 
 @media screen and (max-width: 760px) {
   .AppPrimary{
-    padding: 5px;
+    padding: 8px;
   } 
   .AppSecondary{
-    padding: 5px;
+    padding: 8px;
   } 
 
 }

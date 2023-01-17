@@ -31,3 +31,45 @@ a {
     color: #141414;
     font-weight: 200;
   }
+
+
+
+  @media screen and (max-width:768px){
+    .DivFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 2px 10px 2px; */
+    border-top: 1.5px solid #202020;
+    gap: 50px; 
+    margin: 10px;
+    
+    }
+
+    a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        text-decoration: none;
+        color: inherit;
+        
+    }
+
+    .ImgFooter{
+        width: 25px;
+        height: auto;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .PFooter{
+        font-size: 20px;
+        color: #141414;
+        font-weight: 200;
+        display: none;
+    }
+
+
+  }
