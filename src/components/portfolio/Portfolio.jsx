@@ -12,7 +12,6 @@ function Portfolio() {
     <>
         <NavBar/>
         <div className='DivProyectos'>
-            <h1>PROYECTOS</h1>
             <PortfolioProyects proyects={proyects}/>
         </div>
     </>
