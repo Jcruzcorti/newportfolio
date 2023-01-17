@@ -14,8 +14,6 @@ function Presentation() {
       
           <h1>Hola! Soy Juan Cruz Cortiñas</h1>
           <h2>Front-end Developer</h2>
-          {/* <h1>HOLA! SOY JUAN CRUZ CORTIÑAS</h1>
-          <h2>FRONT-END DEVELOPER</h2> */}
       </div>
       <div className='DivInformation'>
           <img src={imgCv} alt="Imgcv" className='PhotoCv'/>

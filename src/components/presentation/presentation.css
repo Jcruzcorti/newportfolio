@@ -36,11 +36,46 @@ h2{
     font-size: 25px;
 }
 
-/* .DivButtonTheme{
-    display: flex;
-    flex-direction: row;
-    position: sticky;
-    top: 20px;
-    justify-content: flex-end;
-    align-items: flex-end;
-} */
+@media screen and (max-width: 760px) {
+
+    .DivPrimaryPresentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        min-height: 50vh;
+        gap: 15px;
+        
+    }
+    
+    .DivPresentation {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 30px;
+    
+      }
+    
+    .PhotoCv{
+        width: 110px;
+        height: auto;
+        border-radius: 6px;    
+        box-shadow: 1px 1px 15px 2px rgb(65, 65, 61); 
+        margin-bottom: 8px;
+    
+    }
+    
+    h1{
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    h2{
+        margin: 0;
+        font-size: 12px;
+    }
+    
+
+}

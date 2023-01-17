@@ -9,7 +9,7 @@ function ButtonLinkHome() {
 
   return (
     <>
-        <Fab variant="extended" >
+        <Fab variant="extended" className='ButtonHome'>
             <HomeRoundedIcon/>
         </Fab>     
     </>

@@ -5,3 +5,17 @@
     align-items: center;
     gap: 8px;
 }
+
+
+@media screen and (max-width: 760px) {
+
+    .DivNavBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    
+  
+}

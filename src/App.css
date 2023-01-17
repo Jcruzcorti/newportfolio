@@ -63,30 +63,12 @@
 
 
 
+@media screen and (max-width: 760px) {
+  .AppPrimary{
+    padding: 5px;
+  } 
+  .AppSecondary{
+    padding: 5px;
+  } 
 
-/* .App {
-  display: flex;
-  flex-direction: column; */
-  /* justify-content: center;
-  align-items: center; */
-  /* text-align: center;
-} */
-
-/* .SectionApp{
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center;
-  gap: 30px;
-  
-} */
-
-/* .FooterApp{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-}  */
-
-
+}
