@@ -18,7 +18,7 @@ function AboutMe() {
             </div>
             <div className='DivInterests'>
               <div className='DivInterestsItems'>
-                <h2>Intereses</h2>
+                <h2>INTERESES</h2>
                 <h4 className='h4'><img src={mate} alt='img mate' className='imgMate'/>Practicar deportes (Entrenamiento, fútbol, padel, tenis)</h4>
                 <h4 className='h4'><img src={mate} alt='img mate' className='imgMate'/>Disfrutar del tiempo con la familia y amigos</h4>
                 <h4 className='h4'><img src={mate} alt='img mate' className='imgMate'/>Ver fútbol/series/películas, jugar videojuegos</h4>

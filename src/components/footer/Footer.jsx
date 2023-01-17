@@ -5,6 +5,8 @@ import mailImg from '../../imgs/mail.png'
 import githubImg from '../../imgs/github.png'
 import linkedinImg from '../../imgs/linkedin.png'
 
+
+
 function Footer() {
 
   return (

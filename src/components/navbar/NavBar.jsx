@@ -13,7 +13,7 @@ function NavBar() {
         <NavLink to='/cv'><ButtonHover tittle="CV"/></NavLink>
         <NavLink to='/portfolio'><ButtonHover tittle="PORTFOLIO"/></NavLink>
         <NavLink to='/sobremi'><ButtonHover tittle="SOBRE MI"/></NavLink>
-        <ButtonHover tittle="CONTACTO"/>
+        <NavLink to='/contacto'><ButtonHover tittle="CONTACTO"/></NavLink>
     </div>
   )
 }

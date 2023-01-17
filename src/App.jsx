@@ -9,6 +9,7 @@ import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Cv from './components/cv/Cv';
 import Portfolio from './components/portfolio/Portfolio';
 import AboutMe from './components/aboutme/AboutMe';
+import Contact from './components/contact/Contact';
 
 
 
@@ -34,6 +35,7 @@ function App() {
               <Route path='/cv' element={<Cv/>}/>
               <Route path='/portfolio' element={<Portfolio/>}/>
               <Route path='/sobremi' element={<AboutMe/>}/>
+              <Route path='/contacto' element={<Contact/>}/>
             </Routes>
             <div className='ButtonLinkHome'>
               <Link to='/'><ButtonLinkHome/></Link>
