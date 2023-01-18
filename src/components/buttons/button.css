@@ -67,16 +67,16 @@
 
     .ButtonHoverPrimary {
         display: inline-block;
-        width: 84px;
+        width: 90px;
         height: auto;
-        line-height: 30px;
+        line-height: 35px;
         margin: 2px;
         position: relative;
         overflow: hidden;
         border: 2px solid hsla(230, 23.48%, 45.1%, 0.975);
         transition: color .7s;
         z-index: 1;
-        font-size: 14px;
+        font-size: 12px;
         font-family:'Mukta Mahee', sans-serif;
         border-radius: 8px;
         font-weight: 900;
