@@ -5,7 +5,7 @@ export const proyects = [
         tittle:'PORTFOLIO NUEVO',
         description:'Desarrollo y actualización de Portfolio, utilizando tecnologías como JavaScript y React.js puros, diferente al anterior proyecto construido con Next.js',
         url:'/',
-        img:'./img/portfolio.png'      
+        img:'./img/newportfolio.png'      
     },
 
     {

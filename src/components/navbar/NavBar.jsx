@@ -4,7 +4,6 @@ import ButtonHover from '../buttons/ButtonHover'
 import './navbar.css'
 
 
-
 function NavBar() {
 
 

@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   scroll-behavior:smooth;
-  /* justify-content: center;
-  align-items: center; */
   text-align: center;
   padding: 0 2rem;
   background:linear-gradient(
@@ -32,8 +30,6 @@
   display: flex;
   flex-direction: column;
   scroll-behavior:smooth;
-  /* justify-content: center;
-  align-items: center; */
   text-align: center;
   padding: 0 2rem;
   background:linear-gradient(

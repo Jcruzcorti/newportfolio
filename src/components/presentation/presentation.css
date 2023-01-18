@@ -4,8 +4,7 @@
     align-items: center; 
     justify-content: center;
     min-height: 100vh;
-    gap: 30px;
-    
+    gap: 30px;  
 }
 
 .DivPresentation {
@@ -14,7 +13,6 @@
     align-items: center; 
     justify-content: center;
     gap: 50px;
-
   }
 
 .PhotoCv{

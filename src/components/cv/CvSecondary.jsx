@@ -6,13 +6,13 @@ import Js from '../../imgs/js.svg'
 import Reactjs from '../../imgs/react.png'
 import Clousing from '../../imgs/clausura.svg'
 
+
+
 function CvSecondary() {
   return (
     <>
-        <div className='DivCvSecondary'>
-           
+        <div className='DivCvSecondary'>          
             <h2>CONOCIMIENTOS</h2>
-
             <div className='DivKnowledge'> 
                 <img src={Opening} alt="imgapertura" className='ImgKnowledges'/>     
                 <img src={Html} alt="imghtml" className='ImgKnowledges'/> 
@@ -44,9 +44,7 @@ function CvSecondary() {
                 <div className='DivLenguages'>                   
                     <h4 className='h4'>Español: nativo</h4>
                     <h4 className='h4'>Inglés: intermedio/avanzado</h4>
-                </div>
-            
-
+                </div>          
         </div>
     </>
   )

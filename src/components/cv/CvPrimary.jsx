@@ -21,7 +21,6 @@ function CvPrimary() {
                 <h4 className='h4'><ArrowDropDownSharpIcon/>Esfuerzo, constancia, positividad</h4>
                 <h4 className='h4'><ArrowDropDownSharpIcon/>Proactividad, autodidacta, empatía, autonomía</h4>
             </div>
-
         </div>
     </>
   )

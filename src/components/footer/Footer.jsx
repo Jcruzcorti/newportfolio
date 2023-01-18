@@ -7,6 +7,7 @@ import linkedinImg from '../../imgs/linkedin.png'
 
 
 
+
 function Footer() {
 
   return (

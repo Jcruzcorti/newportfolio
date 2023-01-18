@@ -22,7 +22,6 @@
     content: "";
     position: absolute;
     z-index: -1;
-    /* background: hsla(216.49, 46.25%, 31.37%, 0.991); */
     background:hsla(231.25, 19.83%, 47.45%, 0.972) ;
     width: 200px;
     height: 200px;
@@ -63,11 +62,6 @@
     align-items: flex-end;
 }
 
-/* .ButtonHome{
-    width: 40px;
-    height: 40px;
-} */
-
 
 @media screen and (max-width: 768px) {
 
@@ -95,7 +89,6 @@
         content: "";
         position: absolute;
         z-index: -1;
-        /* background: hsla(216.49, 46.25%, 31.37%, 0.991); */
         background:hsla(231.25, 19.83%, 47.45%, 0.972) ;
         width: 200px;
         height: 200px;

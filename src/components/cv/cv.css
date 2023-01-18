@@ -63,9 +63,6 @@
 .DivKnowledge{
     padding-left: 2px;
     padding-right: 2px;
-    /* width: 40px;
-    height: 40px; */
-
 }
 
 .ImgKnowledges{
@@ -80,7 +77,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items:  center;
-    /* margin-top: 10px; */
 }
 
 
@@ -95,7 +91,6 @@
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 10px;
-        /* min-height: 80vh; */
     }
     
     .DivCv:hover{
@@ -110,9 +105,7 @@
         flex-direction: column;
         justify-content: center;
         align-items:  center;
-        width:80vmin;
-    
-        
+        width:80vmin;  
     }
     
     .DivEducation{
@@ -158,9 +151,6 @@
         padding-left: 2px;
         padding-right: 2px;
         padding-bottom: 15px;
-        /* width: 40px;
-        height: 40px; */
-    
     }
     
     .ImgKnowledges{
@@ -175,9 +165,6 @@
         flex-direction: row;
         justify-content: space-around;
         align-items:  center;
-        /* margin-top: 10px; */
     }
-    
-
 
 }

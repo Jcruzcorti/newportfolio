@@ -7,18 +7,6 @@ export const Context = createContext()
 
 function ContextProvider({children}) {
 
-
-    const [themeColor,setThemeColor] = useState(true)
-
-    const handleChangeThemeColor = () =>{
-      themeColor ? setThemeColor(false) : setThemeColor(true)
-    }
-
-
-
-
-
-
     const [contact,setContact]=useState({
       name: "",
       email: "",
@@ -130,7 +118,7 @@ function ContextProvider({children}) {
 
   return (
     <>
-        <Context.Provider value={{themeColor,handleChangeThemeColor,contact,handleChange,form,sendEmail}}>
+        <Context.Provider value={{contact,handleChange,form,sendEmail}}>
             {children}
         </Context.Provider>
     </>

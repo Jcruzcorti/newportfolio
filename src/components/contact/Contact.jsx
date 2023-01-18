@@ -8,13 +8,10 @@ function Contact() {
 
     const {handleChange,form,sendEmail} = useContext(Context)
 
-
-
   return (
-
     <>
         <NavBar/>
-        
+
         <div className='DivContact' >
             <form action="" className='DivForm' ref={form} onSubmit={sendEmail}>
                 <div className='DivContactForm'>
@@ -33,8 +30,7 @@ function Contact() {
                     <button 
                         className='ContactButton'>ENVIAR
                     </button>
-                </div>
-                
+                </div>               
             </form>
         </div>
     </>
