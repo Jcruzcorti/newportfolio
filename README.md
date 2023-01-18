@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Welcome to my Portfolio!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is to develop my portfolio, with professional and personal information, showing my knowledge, my academic background and my built projects, as well as my personal qualities.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project details:
+The project is developed with technologies such as JavaScript, React js and consuming the Email.js API. 
 
-### `npm start`
+It consists of 5 sections, the first one is a presentation banner in which besides my personal photo, and a button to change the background color, there are 4 buttons with redirection to the other 4 sections. The first CV, shows my academic qualifications, skills, knowledge and languages. The second one, my completed projects. As for the third one, the idea is to talk a little about myself by commenting on a presentation and my personal interests. Also, in the last section there is a contact form so that any person/company can send me a message by mail with their respective data. Finally, at the bottom of the page you will find my networks in case you wish to contact me through them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Steps to view the site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+In our default terminal, we clone the folder by typing "git clone" + link:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1- git clone https://github.com/Jcruzcorti/newportfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2- Next, we place ourselves in the root folder of the project, with the command "cd NEWPORTFOLIO" and install all the dependencies inside with the command "npm install".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3-Finally, in the terminal we execute the command "npm start" and the web will open in the default browser after a few seconds/minutes of waiting
