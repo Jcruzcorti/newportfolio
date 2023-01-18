@@ -34,7 +34,7 @@ h2{
     font-size: 25px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 
     .DivPrimaryPresentation{
         display: flex;
@@ -42,7 +42,7 @@ h2{
         align-items: center; 
         justify-content: center;
         gap: 15px;
-        
+        min-height: auto;
     }
     
     .DivPresentation {

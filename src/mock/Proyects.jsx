@@ -4,7 +4,7 @@ export const proyects = [
         id:'1',
         tittle:'PORTFOLIO NUEVO',
         description:'Desarrollo y actualización de Portfolio, utilizando tecnologías como JavaScript y React.js puros, diferente al anterior proyecto construido con Next.js',
-        url:'/',
+        url:'https://jccportfolio.vercel.app/',
         img:'./img/newportfolio.png'      
     },
 
