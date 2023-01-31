@@ -15,20 +15,20 @@ function Contact() {
         <div className='DivContact' >
             <form action="" className='DivForm' ref={form} onSubmit={sendEmail}>
                 <div className='DivContactForm'>
-                    <label htmlFor="" className='Label'><h4 className='h4Contact'>NOMBRE COMPLETO</h4></label>
-                    <input onChange={handleChange} type="text" name='name' placeholder='Escriba su nombre completo aquí' className='Input' aria-required/>
+                    <label htmlFor="" className='Label'><h4 className='h4Contact'>FULL NAME</h4></label>
+                    <input onChange={handleChange} type="text" name='name' placeholder='Enter your full name here' className='Input' aria-required/>
                 </div>
                 <div className='DivContactForm'>
                     <label htmlFor="" className='Label'><h4 className='h4Contact'>MAIL</h4></label>
-                    <input onChange={handleChange} type="email" name='email' placeholder='Escriba su mail aquí' className='Input' aria-required/>
+                    <input onChange={handleChange} type="email" name='email' placeholder='Enter your mail here' className='Input' aria-required/>
                 </div>
                 <div className='DivContactForm'>
-                    <label htmlFor="" className='Label'><h4 className='h4Contact'>MENSAJE</h4></label>
-                    <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Escriba su mensaje aquí' className='Input' cols="30" rows="10" aria-required/>
+                    <label htmlFor="" className='Label'><h4 className='h4Contact'>MESSAGE</h4></label>
+                    <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Enter your message name here' className='Input' cols="30" rows="10" aria-required/>
                 </div>
                 <div className='divContactButton'>
-                    <button 
-                        className='ContactButton'>ENVIAR
+                    <button className='ContactButton'>
+                        SEND
                     </button>
                 </div>               
             </form>

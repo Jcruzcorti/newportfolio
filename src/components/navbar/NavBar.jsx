@@ -11,8 +11,8 @@ function NavBar() {
     <div className="DivNavBar">     
         <NavLink to='/cv'><ButtonHover tittle="CV"/></NavLink>
         <NavLink to='/portfolio'><ButtonHover tittle="PORTFOLIO"/></NavLink>
-        <NavLink to='/sobremi'><ButtonHover tittle="SOBRE MI"/></NavLink>
-        <NavLink to='/contacto'><ButtonHover tittle="CONTACTO"/></NavLink>
+        <NavLink to='/sobremi'><ButtonHover tittle="ABOUT ME"/></NavLink>
+        <NavLink to='/contacto'><ButtonHover tittle="CONTACT"/></NavLink>
     </div>
   )
 }

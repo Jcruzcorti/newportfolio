@@ -12,7 +12,7 @@ function CvSecondary() {
   return (
     <>
         <div className='DivCvSecondary'>          
-            <h2>CONOCIMIENTOS</h2>
+            <h2>KNOWLEDGES</h2>
             <div className='DivKnowledge'> 
                 <img src={Opening} alt="imgapertura" className='ImgKnowledges'/>     
                 <img src={Html} alt="imghtml" className='ImgKnowledges'/> 
@@ -40,10 +40,10 @@ function CvSecondary() {
                     </div>
                 </div>
             </div>
-                <h2>IDIOMAS</h2>
+                <h2>LANGUAGES</h2>
                 <div className='DivLenguages'>                   
-                    <h4 className='h4'>Español: nativo</h4>
-                    <h4 className='h4'>Inglés: intermedio/avanzado</h4>
+                    <h4 className='h4'>Spanish: native</h4>
+                    <h4 className='h4'>English: intermediate/advanced</h4>
                 </div>          
         </div>
     </>

@@ -1,73 +1,73 @@
 export const proyects = [
 
-    {
-        id:'1',
-        tittle:'PORTFOLIO NUEVO',
-        description:'Desarrollo y actualización de Portfolio, utilizando tecnologías como JavaScript y React.js puros, diferente al anterior proyecto construido con Next.js',
-        url:'https://jccportfolio.vercel.app/',
-        img:'./img/newportfolio.png'      
-    },
+    // {
+    //     id:'1',
+    //     tittle:'NEW PORTFOLIO IN SPANISH',
+    //     description:'Portfolio development and update, using technologies such as pure JavaScript and React.js, different from the previous project built with Next.js',
+    //     url:'https://jccportfolio.vercel.app/',
+    //     img:'./img/newportfolio.png'      
+    // },
 
     {
-        id:'2',
-        tittle:'PORTFOLIO',
-        description:'Desarrollo y re-versión de Curriculum, transformándo el sitio web anterior en una app más potente con tecnologías avanzadas como JavaScript, React.js y Next.js',
+        id:'1',
+        tittle:'PORTFOLIO IN SPANISH',
+        description:'Development and re-version of Curriculum but in Spanish, transforming the previous website into a more powerful app with advanced technologies such as JavaScript, React.js and Next.js',
         url:'https://portfoliojcc.vercel.app/',
-        img:'./img/portfolio.png',      
+        img:'/img/newportfolio.png',      
     },
     
     {
-        id:'3',
+        id:'2',
         tittle:'HARRY POTTER QUIZ',
-        description:'Quiz app con temática Harry Potter utilizando tencologías como JavaScript, React js, Next js y Firebase con el fin de guardar puntuación y nombre del participante',
+        description:"Harry Potter themed quiz app using technologies such as JavaScript, React js, Next js and Firebase in order to save score and participant's name",
         url:'https://harrypotterquizgame.vercel.app/',
         img:'./img/hp2.png'      
     },
     
     {
-        id:'4',
+        id:'3',
         tittle:'SCALONETA QUIZ',
-        description:'Quiz app sobre Selección Argentina utilizando tencologías como JavaScript, React js y Firebase con la finalidad de almacenar nombre y puntuación del participante',
+        description:"Quiz app about Argentina National Team using technologies such as JavaScript, React js and Firebase to store participant's name and score",
         url:'https://scalonets.netlify.app/',
         img:'./img/scaloneta.png'      
     },
     
     {
-        id:'5',
+        id:'4',
         tittle:'MM CHOCOLATES APP',
-        description:'Creamos reversión de sitio web Mm Chocolates, transformándo el mismo en un e-commerce con tecnologías como JavaScript, React.js y Firebase almacenando la orden de compra hecha',
+        description:'We created Mm Chocolates website reversion, transforming it into an e-commerce with technologies such as JavaScript, React.js and Firebase storing the purchase order made',
         url:'https://mmchocolates.netlify.app/',
         img:'./img/mmchocolates.png'      
     },
     
     {
-        id:'6',
+        id:'5',
         tittle:'NIKE STORE',
-        description:'Desarrollo de e-commerce Nike app con tecnologías avanzadas como JavaScript, React.js, Adobe Photoshop y Firebase con el fin de guardar la orden de compra realizada por el usuario',
+        description:'Development of Nike e-commerce app with advanced technologies such as JavaScript, React.js, Adobe Photoshop and Firebase in order to save the purchase order made by the user',
         url:'https://thenikestore.netlify.app/',
         img:'./img/nike.png'      
     },
     
     {
-        id:'7',
+        id:'6',
         tittle:'MM CHOCOLATES SITIO WEB',
-        description:'Desarrollo y maquetación de sitio web de emprendimiento de chocolates, con tecnologías básicas como HTML, CSS, Bootstrap y JavaScript consumiendo API Email.js para enviar pedido',
+        description:'Development and layout of a website for a chocolate company, with basic technologies such as HTML, CSS, Bootstrap and JavaScript using API Email.js to send orders',
         url:'https://jcruzcorti.github.io/MMchocolates/',
         img:'./img/mmchocolates.png'      
     },
     
     {
-        id:'8',
+        id:'7',
         tittle:'JUGADORES HISTÓRICOS',
-        description:'Proyecto de Blog futbolero sobre una selección de jugadores de fútbol favoritos históricos, actuales y futuros, desarrollado y maquetado con tecnologías básicas como HTML, CSS',
+        description:'Football Blog project about a selection of historical, current and future favorite soccer players, developed and laid out with basic technologies such as HTML, CSS, etc',
         url:'https://jcruzcorti.github.io/JH/',
         img:'./img/jh.png'      
     },
     
     {
-        id:'9',
+        id:'8',
         tittle:'CURRICULUM VITAE',
-        description:'Proyecto similar al portfolio actual, sitio web sobre CV con información personal y logros, pero desarrollado y maquetado con tecnologías básicas como HTML, CSS y Bootstrap',
+        description:'Project similar to the current portfolio, CV website with personal information and achievements, but developed and laid out with basic technologies such as HTML, CSS and Bootstrap',
         url:'https://jcruzcorti.github.io/CV/',
         img:'./img/cvviejo.png'      
     },
