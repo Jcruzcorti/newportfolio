@@ -12,7 +12,6 @@ import AboutMe from './components/aboutme/AboutMe';
 import Contact from './components/contact/Contact';
 
 
-
 function App() {
 
   const [themeColor,setThemeColor] = useState(true)
@@ -26,9 +25,9 @@ function App() {
   return (
     <ContextProvider>
       <BrowserRouter>
-        <div className={themeColor ? "AppPrimary" : "AppSecondary"}>
+        <div className={themeColor ? "AppPrimary" : "AppSecondary"} >
         
-          <section className='SectionApp'>
+          <section className='SectionApp' >
             <div className='DivButtonTheme'>
               <ButtonTheme onClick={handleChangeThemeColor}/>
             </div>
