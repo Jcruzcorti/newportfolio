@@ -27,16 +27,16 @@ function CvSecondary() {
                         <h4 className='h4'>CSS</h4>
                         <h4 className='h4'>GIT</h4>
                         <h4 className='h4'>Github</h4>
-                        <h4 className='h4'>Next.js</h4>
+                        <h4 className='h4'>Bootstrap</h4>
                         <h4 className='h4'>SCSS</h4>
                     </div>
                     <div className='DivSub2'>
                         <h4 className='h4'>JavaScript</h4>
                         <h4 className='h4'>React js</h4>
-                        <h4 className='h4'>Bootstrap</h4>
+                        <h4 className='h4'>Next js</h4>
                         <h4 className='h4'>Firebase</h4>
-                        <h4 className='h4'>Next UI</h4>
-                        <h4 className='h4'>Balsamiq</h4>
+                        <h4 className='h4'>Material UI</h4>
+                        <h4 className='h4'>Tailwind</h4>
                     </div>
                 </div>
             </div>

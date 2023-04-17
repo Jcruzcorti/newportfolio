@@ -14,7 +14,7 @@ function AboutMe() {
       <div className='DivAboutMe'>
           <div className='DivAboutMePresentation'>
             <h2>PRESENTATION</h2>
-            <h4 className='h4'> I was born on March 14, 1996 in Córdoba, Argentina. I'm 26 years old and I'm studying a degree in Psychology at the Universidad Nacional de Córdoba and after having performed various work tasks in places such as a chocolate business, a greengrocer, a sports club and a pastry business, I became interested in this totally new world for me, such as programming. From this point, I always wanted to progress and internalize myself in this profession, training and learning more and more to constantly develop my technical skills in this area</h4>
+            <h4 className='h4'> I was born on March 14, 1996 in Córdoba, Argentina. I'm 27 years old and I'm studying a degree in Psychology at the Universidad Nacional de Córdoba and after having performed various work tasks in places such as a chocolate business, a greengrocer, a sports club and a pastry business, I became interested in this totally new world for me, such as programming. From this point, I always wanted to progress and internalize myself in this profession, training and learning more and more to constantly develop my technical skills in this area</h4>
           </div>
           <div className='DivInterests'>
             <div className='DivInterestsItems'>
