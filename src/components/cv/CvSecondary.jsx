@@ -23,9 +23,9 @@ function CvSecondary() {
                 
                 <div className='DivSub'>
                     <div className='DivSub1'>
-                        <h4 className='h4'>HTML,CSS</h4>
+                        <h4 className='h4'>HTML-CSS</h4>
                         <h4 className='h4'>JavaScript</h4>
-                        <h4 className='h4'>React js</h4>
+                        <h4 className='h4'>React.js</h4>
                         <h4 className='h4'>GIT</h4>
                         <h4 className='h4'>Github</h4>
                         <h4 className='h4'>TypeScript</h4>
