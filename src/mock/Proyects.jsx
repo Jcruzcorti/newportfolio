@@ -7,7 +7,7 @@ export const proyects = [
         tittle:'QUIEN JUEGA HOY',
         description:"Football sports schedule exclusively, with the purpose of informing about today's and tomorrow's matches, with argentinian schedule. I used Next js and Material UI, consuming football API",
         url:'https://quienjuegahoy.vercel.app/',
-        img:'/quienjuegahoy.png'      
+        img:'/img/quienjuegahoy.png'      
     },
     {
         id:'2',
