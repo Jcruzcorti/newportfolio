@@ -5,7 +5,7 @@ export const proyects = [
         tittle:'ROTOGPT',
         description:'AI fantasy football assistant shipped as a production web app and native iOS/Android apps (Capacitor). I worked on a team to create and maintain the product UI in React/TypeScript (chatbot, leagues, roster tools, Auth0, logged + guest flows) and also contribute to NestJS APIs, Stripe / Apple IAP / Google Play payments, and SEO.',
         url:'https://rotogpt.com/',
-        img:'/img/rotoGPTLogo1.png'
+        img:'/img/rotoGPTlogo1.png'
     },
 
     {
