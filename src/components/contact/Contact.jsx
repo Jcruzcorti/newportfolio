@@ -24,7 +24,7 @@ function Contact() {
                 </div>
                 <div className='DivContactForm'>
                     <label htmlFor="" className='Label'><h4 className='h4Contact'>MESSAGE</h4></label>
-                    <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Enter your message name here' className='Input' cols="30" rows="10" aria-required/>
+                    <textarea onChange={handleChange} type="text" name='mensaje' placeholder='Enter your message here' className='Input' cols="30" rows="10" aria-required/>
                 </div>
                 <div className='divContactButton'>
                     <button className='ContactButton'>
