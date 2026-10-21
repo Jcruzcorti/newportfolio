@@ -45,7 +45,7 @@ function ContextProvider({children}) {
           
           Toast.fire({
             icon: 'error',
-            title: 'Por favor, ingrese todos los datos del formulario'
+            title: 'Please fill in all the form fields'
           })
     }
 
@@ -64,7 +64,7 @@ function ContextProvider({children}) {
           
           Toast.fire({
             icon: 'error',
-            title: 'Por favor, ingrese todos los datos del formulario'
+            title: 'Please fill in all the form fields'
           })
     }
     else if (contact.mensaje === "") {
@@ -82,7 +82,7 @@ function ContextProvider({children}) {
           
           Toast.fire({
             icon: 'error',
-            title: 'Por favor, ingrese todos los datos del formulario'
+            title: 'Please fill in all the form fields'
           })
     }
     else {
@@ -90,7 +90,7 @@ function ContextProvider({children}) {
             toast: true,
             position: 'top-end',
             showConfirmButton: false,
-            timer: 3000,
+            timer: 5000,
             timerProgressBar: true,
             didOpen: (toast) => {
               toast.addEventListener('mouseenter', Swal.stopTimer)
@@ -100,16 +100,16 @@ function ContextProvider({children}) {
           
           Toast.fire({
             icon: 'success',
-            title: 'Mensaje enviado'
+            title: 'Message sent'
           })
 
-          emailjs.sendForm('service_q4h5kuc', 'template_px4j7b8', form.current, 'qz1-4pKUlGcUfd2CX')
+          emailjs.sendForm('service_6jaeoun', 'template_px4j7b8', form.current, 'qz1-4pKUlGcUfd2CX')
     
           e.target.reset()
           
           setTimeout(() => {
             window.location.href="/";
-          }, 3000); 
+          }, 50000); 
     }
     
 

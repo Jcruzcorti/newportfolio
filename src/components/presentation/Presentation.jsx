@@ -1,12 +1,11 @@
-import React,{useEffect} from 'react'
-import './presentation.css'
-import imgCv from '../../imgs/fotocv.png'
-import NavBar from '../navbar/NavBar';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import React, { useEffect } from "react";
+import "./presentation.css";
+import imgCv from "../../assets/fotocv.png";
+import NavBar from "../navbar/NavBar";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Presentation() {
-
   useEffect(() => {
     AOS.init({
       delay: 100,
@@ -14,28 +13,21 @@ function Presentation() {
     });
   });
 
-
-
   return (
-
-  <div className='DivPrimaryPresentation' data-aos="zoom-in">
-    
-    <div className='DivPresentation'>
-      <div className='DivInformation'>    
+    <div className="DivPrimaryPresentation" data-aos="zoom-in">
+      <div className="DivPresentation">
+        <div className="DivInformation">
           <h1>Hey there! I'm Juan Cruz Cortiñas</h1>
-          <h2>Front-end Developer</h2>
+          <h2>Full Stack Developer</h2>
+        </div>
+        <div className="DivInformation">
+          <img src={imgCv} alt="Imgcv" className="PhotoCv" />
+        </div>
       </div>
-      <div className='DivInformation'>
-          <img src={imgCv} alt="Imgcv" className='PhotoCv'/>
-      </div>     
+
+      <NavBar />
     </div>
-    
-    <NavBar/>
-  </div>
-
-
-    
-  )
+  );
 }
 
 export default Presentation;
