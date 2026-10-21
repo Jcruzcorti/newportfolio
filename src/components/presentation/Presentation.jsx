@@ -11,7 +11,7 @@ function Presentation() {
       delay: 100,
       duration: 400,
     });
-  });
+  }, []);
 
   return (
     <div className="DivPrimaryPresentation" data-aos="zoom-in">

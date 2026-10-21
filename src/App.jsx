@@ -1,16 +1,26 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 import './App.css';
 import ButtonLinkHome from './components/buttons/ButtonLinkHome';
 import ButtonTheme from './components/buttons/ButtonTheme';
 import Footer from './components/footer/Footer';
 import Presentation from './components/presentation/Presentation';
 import ContextProvider from './context/Context';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Link, useLocation} from 'react-router-dom'
 import Cv from './components/cv/Cv';
 import Portfolio from './components/portfolio/Portfolio';
 import AboutMe from './components/aboutme/AboutMe';
 import Contact from './components/contact/Contact';
 
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
 
@@ -20,11 +30,18 @@ function App() {
     themeColor ? setThemeColor(false) : setThemeColor(true)
   }
 
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+  }, []);
+
 
   
   return (
     <ContextProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <div className={themeColor ? "AppPrimary" : "AppSecondary"} >
         
           <section className='SectionApp' >
@@ -39,7 +56,7 @@ function App() {
               <Route path='/contacto' element={<Contact/>}/>
             </Routes>
             <div className='ButtonLinkHome'>
-              <Link to='/'><ButtonLinkHome/></Link>
+              <Link to='/' onClick={() => window.scrollTo(0, 0)}><ButtonLinkHome/></Link>
             </div>
           </section>
 
