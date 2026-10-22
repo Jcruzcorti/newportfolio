@@ -19,40 +19,24 @@ const academicBackground = [
   {
     id: 0,
     tittle: "Bachelor's degree oriented in economics and management of organizations in the Institute Juan Zorrilla de San Martín 2008-2013",
-    description: "Bachelor's degree oriented in economics and management of organizations in the Institute Juan Zorrilla de San Martín 2008-2013",
   },
   {
     id: 1,
-    tittle: "Bachelor's Degree in Psychology at the Faculty of Psychology UNC. 2015 - Present",
-  },
-  {
-    id: 2,
     tittle: "Web development course at Coderhouse",
   },
   {
-    id: 3,
+    id: 2,
     tittle: "Javascript course at Coderhouse",
   },
   {
-    id: 4,
+    id: 3,
     tittle: "React js course at Coderhouse",
   },
   {
-    id: 5,
+    id: 4,
     tittle: "React.js Intermediate & Advanced at OpenBootcamp · 2023",
   },
-  {
-    id: 6,
-    tittle: "Problem-solving, good communication skills, adaptability, organization/orderly",
-  },
-  {
-    id: 7,
-    tittle: "Effort, constancy, positivity",
-  },
-  {
-    id: 8,
-    tittle: "Proactivity, self-taught, empathy, autonomy",
-  },
+
 ];
 
 // Aptitudes data
