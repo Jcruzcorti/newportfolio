@@ -1,6 +1,12 @@
 export const proyects = [
 
-
+    {
+        id:'0',
+        tittle:'ROTOGPT',
+        description:'AI fantasy football assistant shipped as a production web app and native iOS/Android apps (Capacitor). I worked on a team to create and maintain the product UI in React/TypeScript (chatbot, leagues, roster tools, Auth0, logged + guest flows) and also contribute to NestJS APIs, Stripe / Apple IAP / Google Play payments, and SEO.',
+        url:'https://rotogpt.com/',
+        img:'/img/rotoGPTlogo1.png'
+    },
 
     {
         id:'1',
@@ -20,7 +26,7 @@ export const proyects = [
     {
         id:'3',
         tittle:'PORTFOLIO IN SPANISH',
-        description:'Development and re-version of Curriculum but in Spanish, transforming the previous website into a more powerful app with advanced technologies such as JavaScript, React.js and Next.js',
+        description:'Spanish version of my portfolio: personal site with CV, projects, about me, and contact, built with JavaScript, React.js and Next.js',
         url:'https://portfoliojcc.vercel.app/',
         img:'/img/newportfolio.png',      
     },
@@ -57,13 +63,13 @@ export const proyects = [
         img:'./img/nike.png'      
     },
     
-    {
-        id:'8',
-        tittle:'MM CHOCOLATES SITIO WEB',
-        description:'Development and layout of a website for a chocolate company, with basic technologies such as HTML, CSS, Bootstrap and JavaScript using API Email.js to send orders',
-        url:'https://jcruzcorti.github.io/MMchocolates/',
-        img:'./img/mmchocolates.png'      
-    },
+    // {
+    //     id:'8',
+    //     tittle:'MM CHOCOLATES SITIO WEB',
+    //     description:'Development and layout of a website for a chocolate company, with basic technologies such as HTML, CSS, Bootstrap and JavaScript using API Email.js to send orders',
+    //     url:'https://jcruzcorti.github.io/MMchocolates/',
+    //     img:'./img/mmchocolates.png'      
+    // },
     
     {
         id:'9',
@@ -73,13 +79,13 @@ export const proyects = [
         img:'./img/jh.png'      
     },
     
-    {
-        id:'10',
-        tittle:'CURRICULUM VITAE',
-        description:'Project similar to the current portfolio, CV website with personal information and achievements, but developed and laid out with basic technologies such as HTML, CSS and Bootstrap',
-        url:'https://jcruzcorti.github.io/CV/',
-        img:'./img/cvviejo.png'      
-    },
+    // {
+    //     id:'10',
+    //     tittle:'CURRICULUM VITAE',
+    //     description:'Project similar to the current portfolio, CV website with personal information and achievements, but developed and laid out with basic technologies such as HTML, CSS and Bootstrap',
+    //     url:'https://jcruzcorti.github.io/CV/',
+    //     img:'./img/cvviejo.png'      
+    // },
     
 
 ]

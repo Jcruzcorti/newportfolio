@@ -1,6 +1,7 @@
 .AppPrimary{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   scroll-behavior:smooth;
   text-align: center;
   padding: 0 2rem;
@@ -29,6 +30,7 @@
 .AppSecondary{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   scroll-behavior:smooth;
   text-align: center;
   padding: 0 2rem;
@@ -57,7 +59,9 @@
  
 );}
 
-
+.SectionApp {
+  flex: 1 1 auto;
+}
 
 @media screen and (max-width: 768px) {
   .AppPrimary{
